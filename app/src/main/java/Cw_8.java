@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 public class Cw_8 {
-    public static void main(String[] args) {
+    public void factorion() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Give Your number:");
         int input = Integer.parseInt(scanner.nextLine());

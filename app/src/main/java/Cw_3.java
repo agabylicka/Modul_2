@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 public class Cw_3 {
-    public static void main(String[] args) {
+    public void three(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Give first number:");
         int first = Integer.parseInt(scanner.nextLine());

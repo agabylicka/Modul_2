@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 public class Cw_6 {
-    public static void main(String[] args) {
+    public void count() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Give Your number:");
         int input = Integer.parseInt(scanner.nextLine());
@@ -17,7 +17,7 @@ public class Cw_6 {
     public static int sum(int a){
         int resultOfSum = 0;
         for (int i = 0; i <= a; i++ ){
-             resultOfSum = resultOfSum + i;
+             resultOfSum = resultOfSum += i;
         }
     
         System.out.print(resultOfSum);
